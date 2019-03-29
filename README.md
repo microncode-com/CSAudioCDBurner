@@ -33,8 +33,13 @@ This component can be use for FREE for personal or free usage. Just add the foll
 audioCDBurner1.UserName = "Free@Usage";
 audioCDBurner1.UserKey = "c305715ba5e02169855a0a247a2a099a";
 ```
+
+# Non FREE usage
+
 ![alt License](http://microncode.com/images/medal128.png "License")
 
-For commercial or any other usage please buy a license to get your own username and regkey at:
+For commercial or any other usage please buy a license to get your own username and regkey (one time fee of 89$) at:
 
 [Buy CSAudioCDBurner Commercial License](https://order.shareit.com/cart/add?vendorid=200277377&PRODUCT[300914523]=1)
+
+* The source code is also available.
