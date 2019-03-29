@@ -1,0 +1,123 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CSAudioCDBurnerExampleVB
+</name>
+</assembly>
+<members>
+<member name="T:CSAudioCDBurnerExampleVB.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CSAudioCDBurnerExampleVB.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CSAudioCDBurnerExampleVB.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.frmAudioCDBurner_Load(System.Object,System.EventArgs)">
+ <summary>
+ Form load.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Open the CD drive.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close the CD drive.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnAddFiles_Click(System.Object,System.EventArgs)">
+ <summary>
+ Add WAV audio files to the tracks list to burn.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnRemove_Click(System.Object,System.EventArgs)">
+ <summary>
+ Remove the selected tracks from the list.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnClear_Click(System.Object,System.EventArgs)">
+ <summary>
+ Clear all the tracks from the list to burn.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnBurn_Click(System.Object,System.EventArgs)">
+ <summary>
+ Burn the tracks in the list to an Audio CD.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.btnCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancel the burn process.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.AudioCDBurner1_BurnError(CSAudioCDBurner.AudioCDBurner,System.Int32,System.String)">
+ <summary>
+ On burn error.
+ </summary>
+ <param name="m"></param>
+ <param name="ErrorNumber"></param>
+ <param name="Message"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.AudioCDBurner1_BurnFinished(CSAudioCDBurner.AudioCDBurner)">
+ <summary>
+ When the burn process has done.
+ </summary>
+ <param name="m"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.AudioCDBurner1_BurnPreparing(CSAudioCDBurner.AudioCDBurner)">
+ <summary>
+ When the process is preparing to burn.
+ </summary>
+ <param name="m"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.AudioCDBurner1_BurnProgress(CSAudioCDBurner.AudioCDBurner,System.Int32)">
+ <summary>
+ The burn progress of the process.
+ </summary>
+ <param name="m"></param>
+ <param name="Percent"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.AudioCDBurner1_BurnTrack(CSAudioCDBurner.AudioCDBurner,System.Int32)">
+ <summary>
+ When burn a track.
+ </summary>
+ <param name="m"></param>
+ <param name="TrackNumber"></param>
+</member>
+<member name="M:CSAudioCDBurnerExampleVB.frmAudioCDBurner.cmdCheckLicense_Click(System.Object,System.EventArgs)">
+ <summary>
+ Check the license.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

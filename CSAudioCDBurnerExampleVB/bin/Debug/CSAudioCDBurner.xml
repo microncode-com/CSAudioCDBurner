@@ -1,0 +1,335 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSAudioCDBurner</name>
+    </assembly>
+    <members>
+        <member name="M:AudioBurnerLib.AudioBurner.backgroundWorker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            The thread that does the burning of the media
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AudioBurnerLib.AudioBurner.backgroundWorker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+            <summary>
+            Update the user interface with the current progress
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AudioBurnerLib.AudioBurner.backgroundWorker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+            <summary>
+            Notification that the burn background thread has completed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:AudioBurnerLib.AudioBurner.trackAtOnce_Update(System.Object,System.Object)">
+            <summary>
+            Update notification from IDiscFormat2TrackAtOnce
+            </summary>
+            <param name="sender"></param>
+            <param name="progress"></param>
+        </member>
+        <member name="P:AudioBurnerLib.MediaFile.SizeOnDisc">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AudioBurnerLib.MediaFile.Path">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:AudioBurnerLib.MediaFile.FileIcon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AudioBurnerLib.MediaFile.ToString">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:AudioBurnerLib.MediaFile.PrepareStream">
+            <summary>
+            Prepares a stream to be written to the media
+            </summary>
+        </member>
+        <member name="M:AudioBurnerLib.MediaFile.IsWavProperFormat(System.String)">
+            <summary>
+            Determines if the Wav file is the proper format to be written to CD
+            The proper format is uncompressed PCM, 44.1KHz, Stereo
+            </summary>
+            <param name="wavFile">the selected wav file</param>
+            <returns>true if proper format, otherwise false</returns>
+        </member>
+        <member name="T:IMAPI2.DDiscFormat2DataEvents">
+            <summary>
+            Data Writer
+            </summary>
+        </member>
+        <member name="T:IMAPI2.DDiscFormat2EraseEvents">
+            <summary>
+            Provides notification of media erase progress.
+            </summary>
+        </member>
+        <member name="T:IMAPI2.DDiscFormat2RawCDEvents">
+            <summary>
+            CD Disc-At-Once RAW Writer Events
+            </summary>
+        </member>
+        <member name="T:IMAPI2.DDiscFormat2TrackAtOnceEvents">
+            <summary>
+            CD Track-at-Once Audio Writer Events
+            </summary>
+        </member>
+        <member name="T:IMAPI2.DDiscMaster2Events">
+            <summary>
+            Provides notification of the arrival/removal of CD/DVD (optical) devices.
+            </summary>
+        </member>
+        <member name="T:IMAPI2.DFileSystemImageEvents">
+            <summary>
+            Provides notification of file system import progress
+            </summary>
+        </member>
+        <member name="T:IMAPI2.DWriteEngine2Events">
+            <summary>
+            Provides notification of the progress of the WriteEngine2 writing.
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscFormat2Data">
+            <summary>
+            Data Writer
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscFormat2DataEventArgs">
+            <summary>
+            Track-at-once Data Writer
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscFormat2RawCD">
+            <summary>
+            CD Disc-At-Once RAW Writer
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscFormat2RawCDEventArgs">
+            <summary>
+            CD Disc-At-Once RAW Writer Event Arguments
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscFormat2TrackAtOnceEventArgs">
+            <summary>
+            CD Track-at-once Audio Writer Event Arguments
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscMaster2">
+            <summary>
+            IDiscMaster2 is used to get an enumerator for the set of CD/DVD (optical) devices on the system
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscRecorder2">
+            <summary>
+             Represents a single CD/DVD type device, and enables many common operations via a simplified API.
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IDiscRecorder2Ex">
+            <summary>
+            Represents a single CD/DVD type device, enabling additional commands requiring advanced marshalling code
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IEnumFsiItems">
+            <summary>
+            FileSystemImage item enumerator
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IEnumProgressItems">
+            <summary>
+            FileSystemImageResult progress item enumerator
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IFileSystemImage">
+            <summary>
+            File system image
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IFileSystemImageResult">
+            <summary>
+            FileSystemImage result stream
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IFsiFileItem">
+            <summary>
+            FileSystemImage file item
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IFsiItem">
+            <summary>
+            FileSystemImage item
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IProgressItem">
+            <summary>
+            FileSystemImageResult progress item
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IProgressItems">
+            <summary>
+            FileSystemImageResult progress item
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IWriteEngine2">
+            <summary>
+            Write Engine
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IWriteEngine2EventArgs">
+            <summary>
+            CD Write Engine
+            </summary>
+        </member>
+        <member name="T:IMAPI2.IWriteSpeedDescriptor">
+            <summary>
+            A single optical drive Write Speed Configuration
+            </summary>
+        </member>
+        <member name="T:IMAPI2.MsftDiscFormat2Data">
+            <summary>
+            Microsoft IMAPIv2 Data Writer
+            </summary>
+        </member>
+        <member name="T:IMAPI2.MsftDiscFormat2TrackAtOnce">
+            <summary>
+            Microsoft IMAPIv2 Track-at-Once Audio CD Writer
+            </summary>
+        </member>
+        <member name="T:IMAPI2.MsftDiscMaster2">
+            <summary>
+            Microsoft IMAPIv2 Disc Master
+            </summary>
+        </member>
+        <member name="T:IMAPI2.MsftDiscRecorder2">
+            <summary>
+            Microsoft IMAPIv2 Disc Recorder
+            </summary>
+        </member>
+        <member name="T:IMAPI2.MsftFileSystemImage">
+            <summary>
+            File system image
+            </summary>
+        </member>
+        <member name="F:Microncode.Lic.frmLicense.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Microncode.Lic.frmLicense.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Microncode.Lic.frmLicense.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:Microncode.Lic.LicenseLib.CheckLicense(System.Windows.Forms.IWin32Window,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Check the license of the library. If the registration is OK a MessageBox will be display with a message 'The registration is OK.', otherwise, a registration window will be display with an instructions of register the library.
+            </summary>
+        </member>
+        <member name="P:CSAudioCDBurner.AudioCDBurner.UserName">
+            <summary>
+            The user name.
+            </summary>
+        </member>
+        <member name="P:CSAudioCDBurner.AudioCDBurner.UserKey">
+            <summary>
+            The user key.
+            </summary>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.CheckLicense(System.Boolean)">
+            <summary>
+            Check the user license of the component. 
+            </summary>
+            <param name="DisplayRegistrationWindow">Display the registration form or not.</param>
+            <returns>True if the license is OK, false if not.</returns>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.RaiseError(System.Exception)">
+            <summary>
+            Raise Error
+            </summary>
+            <param name="ex">The error exception</param>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.backgroundWorker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            The thread that does the burning of the media
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.backgroundWorker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+            <summary>
+            Update the user interface with the current progress
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.backgroundWorker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+            <summary>
+            Notification that the burn background thread has completed
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.trackAtOnce_Update(System.Object,System.Object)">
+            <summary>
+            Update notification from IDiscFormat2TrackAtOnce
+            </summary>
+            <param name="sender"></param>
+            <param name="progress"></param>
+        </member>
+        <member name="F:CSAudioCDBurner.AudioCDBurner.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CSAudioCDBurner.AudioCDBurner.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:CSAudioCDBurner.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CSAudioCDBurner.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CSAudioCDBurner.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

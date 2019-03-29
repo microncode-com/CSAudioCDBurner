@@ -1,0 +1,16 @@
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurnerExampleVB.exe.config
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurnerExampleVB.exe
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurnerExampleVB.pdb
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurnerExampleVB.xml
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurner.dll
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurner.pdb
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.vbprojAssemblyReference.cache
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.frmAudioCDBurner.resources
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.Resources.resources
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.vbproj.GenerateResource.cache
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.vbproj.CoreCompileInputs.cache
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.vbproj.CopyComplete
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.exe
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.xml
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\obj\Debug\CSAudioCDBurnerExampleVB.pdb
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Examples\CSAudioCDBurnerExampleVB\bin\Debug\CSAudioCDBurner.xml

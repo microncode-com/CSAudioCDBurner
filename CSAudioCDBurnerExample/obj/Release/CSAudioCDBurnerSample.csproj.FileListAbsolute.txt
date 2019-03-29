@@ -1,0 +1,13 @@
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\bin\Release\CSAudioCDBurnerSample.exe.config
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\bin\Release\CSAudioCDBurnerSample.exe
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\bin\Release\CSAudioCDBurnerSample.pdb
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\bin\Release\CSAudioCDBurner.dll
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\bin\Release\CSAudioCDBurner.pdb
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.csprojAssemblyReference.cache
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.frmAudioCDBurner.resources
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.Properties.Resources.resources
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.csproj.GenerateResource.cache
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.csproj.CoreCompileInputs.cache
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.csproj.CopyComplete
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.exe
+D:\MyCode\A\Apps\final\ReadyLib\Microncode\Developer\CSAudio\CSAudioCDBurnerComponent\Component\Samples\CSAudioCDBurnerSample\obj\Release\CSAudioCDBurnerSample.pdb
