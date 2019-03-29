@@ -36,7 +36,7 @@ audioCDBurner1.UserKey = "c305715ba5e02169855a0a247a2a099a";
 
 # Commercial usage
 
-![alt License](http://microncode.com/images/medal128.png "License")
+![alt License](http://www.microncode.com/images/medal128.png "License")
 
 For commercial or any other usage please buy a license to get your own username and regkey (one time fee of 89$) at:
 
