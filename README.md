@@ -26,7 +26,7 @@ The CSAudioCDBurner is a .NET component for software developers that can burn an
 - Licensed under the MS-PL.
 - Can be used in commercial products.
 
-# Usage
+# FREE Usage
 This component can be use for FREE for personal or free usage. Just add the following details to the username and the regkey in the form_load event:
 
 ```
@@ -34,7 +34,7 @@ audioCDBurner1.UserName = "Free@Usage";
 audioCDBurner1.UserKey = "c305715ba5e02169855a0a247a2a099a";
 ```
 
-# Non FREE usage
+# Commercial usage
 
 ![alt License](http://microncode.com/images/medal128.png "License")
 
