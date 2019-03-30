@@ -43,3 +43,6 @@ For commercial or any other usage please buy a license to get your own username 
 [Buy CSAudioCDBurner Commercial License](https://order.shareit.com/cart/add?vendorid=200277377&PRODUCT[300914523]=1)
 
 * The source code of this component is also available.
+
+# License
+- The examples and the component are licensed under MS-PL. 
