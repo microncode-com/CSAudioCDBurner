@@ -1,7 +1,7 @@
 # CSAudioCDBurner
 .NET component to burn an Audio CD from standard WAV files.
 
-![alt CSAudioCDBurner](https://www.microncode.com/developers/cs-audio-cd-burner/images/cs-audio-cd-burner.png "CSAudioCDBurner")
+![alt CSAudioCDBurner](https://www.microncode.com/images/developers/cs-audio-cd-burner/images/cs-audio-cd-burner.png "CSAudioCDBurner")
 
 # About
 The CSAudioCDBurner is a .NET component for software developers that can burn an Audio CD from the standard PCM WAV files with C#, VB in the .NET platform.
